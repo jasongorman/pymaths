@@ -25,7 +25,12 @@ def factorial(number):
         f = f * i
 
     return f
+    
+    
+def floor(number):
+    return number - (number % 1)
 
     
 print('The Square root of 25 =', sqrt(25));
 print('The factorial of 5 is ', factorial(5))
+print('The floor of 4.7 is', floor(4.7))
