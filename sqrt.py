@@ -26,6 +26,16 @@ def factorial(number):
 
     return f
 
+
+def ceiling(number):
+    remainder = number % 1
+
+    if remainder == 0:
+        return number
+
+    return number - remainder + 1
+
     
 print('The Square root of 25 =', sqrt(25));
 print('The factorial of 5 is ', factorial(5))
+print('The ceiling of 1.3 is', ceiling(1.3))
